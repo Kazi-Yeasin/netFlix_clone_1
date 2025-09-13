@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  background-color: rgb(128, 117, 117);
+}
+
+#bg_img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("netflix.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#black_shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 4, 4, 0.725);
+  z-index: 1;
+}
+
+#upper_layer{
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  
+  z-index: 2;
+}
+
+#upper_layer .img {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+}
+#upper_layer .button1{
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#upper_layer .head1{
+  color: white;
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%); /* adjust offset */
+}
+#upper_layer .head2{
+  color: white;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  font-size: 35px;
+  transform: translate(-50%, -50%); /* adjust offset */
+}
+#upper_layer .head3{
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%); /* adjust offset */
+}
+#upper_layer input{
+  color: white;
+  position: absolute;
+  top: 53%;
+  left: 45%;
+  padding: 20px;
+  width: 300px;
+  transform: translate(-50%, -50%); /* adjust offset */
+}
+#upper_layer .button2{
+  margin: 0px;
+  padding: 10px 20px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  text-align: center;
+}
+#div1 .head1{
+  position: relative;
+  color: white;
+  font-size: 50px;
+  top: 15%;
+  left: 10%;
+}
+#div1 .head2{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  top: 15%;
+  left: 10%;
+}
+#div1 video{
+  /* top: 50%;
+  right: 20%; */
+  display: block;
+  margin-right: 50px; 
+  margin-left: auto;
+}
+#div2 .head1{
+  position: relative;
+  color: white;
+  font-size: 50px;
+  top: 15%;
+  left: 10%;
+}
+#div2 .head2{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  top: 15%;
+  left: 10%;
+}
+#div2 img {
+  float: right;
+  top: 50%;
+  right: 20%;
+}
+#div3 .head1{
+  position: relative;
+  color: white;
+  font-size: 50px;
+  top: 10%;
+  left: 10%;
+}
+#div3 .head2{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  top: 20%;
+  left: 10%;
+ 
+}
+#div4 .head1{
+  position: relative;
+  color: white;
+  font-size: 50px;
+  top: 10%;
+  left: 10%;
+}
+#div4 .head2{
+  position: relative;
+  color: white;
+  font-size: 30px;
+  top: 20%;
+  left: auto;
+}
+
+#div4 img{
+  display: block; 
+  margin-left: auto;
+  margin-right: 0;
+}
+.div {
+  background-color: black;
+  height: 600px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* #sixth {
+  background-color: black;
+  height: 600px;
+} */
+
+.Questions {
+  border: 1px black;
+  margin: 20px ;
+  text-align: justify;
+  padding: 20px;
+  background-color: rgb(106, 106, 100);
+  
+}
